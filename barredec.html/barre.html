@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    .block1{
+        width: 30em;
+        height: 1em;
+        border-radius: 0.5em;
+        
+        background: #f2f2f2;
+        box-shadow: inset 0 0 0 1px;
+        overflow: hidden;
+        }
+    .block2{
+        width: 30em;
+        height: 1em;
+        border-radius: 0.5em;
+        
+        background: greenyellow;
+        margin-left: -100%;
+/*        animation: 1s bar linear;
+        animation-fill-mode: forwards;
+*/        }
+    @keyframes bar {
+        100%{
+            margin-left: 0;
+        }
+    }
+
+/*    .barre{
+        width: 30em;
+        height: 1em;
+        border-radius: 0.5em;
+        position: relative;
+        background: #f2f2f2;
+        box-shadow: inset 0 0 0 1px;
+    }
+    .barre.percentage{
+        position: relative;
+        font-size: 1em;
+        background: tomato;
+        height: 1em;
+        border-radius: 0.5em;
+    }
+    .has-tip::before
+    .has-tip:after{
+        content: "";
+        position: absolute;
+        opacity: 0;
+    }
+    .has-tip::before{
+        bottom: -10px;
+        right: -5px;
+        border: 5px solid;
+        border-color: transparent transparent;
+        transition: opacity 0.1s;
+    }
+    .has-tip:after{
+        content: attr(data-perc);
+        bottom: 0;
+        right: 0;
+        white-space: nowrap;
+        padding: 0.6em 1em;
+        border-radius: 2em;
+        line-height: 1;
+        color: #fff;
+        background: tomato;
+        transform: translate(50%) translate(100%);
+        transition: transform 0.2s;
+    }
+    .has-tip:hover:before,
+    .has-tip.active:before{
+        opacity: 1;
+    }
+    .has-tip:hover:after,
+    .has-tip.active:after{
+        opacity: 1;
+        transform: translate(50%) translate(100%);
+    }
+    */
+    </style>
+</head>
+<body>
+    <button class="clickme">clique moi</button>
+
+        <div class="block1">
+
+            <div class="block2"></div>
+
+        </div>
+
+
+
+    <script src="barre.js"></script>
+</body>
+</html>

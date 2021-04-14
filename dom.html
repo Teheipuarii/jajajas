@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        .title{
+            cursor: pointer;
+        }
+
+    @keyframes couleur {
+        0%{
+            color: red;
+        }
+        25%{
+            color: blue;
+        }
+        50%{
+            color: green;
+        }
+        75%{
+            color: greenyellow;
+        }
+        100%{
+            color: palevioletred;
+        }
+    }
+
+    .modal{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 250px;
+        padding: 2%;
+        background: coral;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px black;
+        color: white;
+    }
+    
+
+    </style>
+</head>
+<body>
+    <h1 class="title" >Salut le monde</h1>
+
+      <div class="modal" id="modal">
+
+        <h3>bonjour les amies bienvenue</h3>
+        <button>let's go</button>
+
+    </div>
+    <script src="dom.js"></script>
+</body>
+</html>
